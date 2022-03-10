@@ -1,0 +1,18 @@
+#counter {
+    text-align: center;
+    font-family: "SF Pro Text", -apple-system, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, "Lucida Grande",
+        sans-serif;
+    font-weight: 800;
+    font-size: 35em;
+}
+html,
+body,
+#root {
+    height: 100%;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
