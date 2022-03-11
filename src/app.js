@@ -18,7 +18,6 @@ const start = async () => {
             document.getElementById('counter').innerHTML = counter;
         });
     });
-
 }
 
 start()

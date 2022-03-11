@@ -14,6 +14,7 @@ int prevFrame = 0;
 // Minimum number of frames that had to have passed since the last slap.
 int frameThreshold = 500;
 void loop() {
+    // Only check if we're in a sample frame.
     if ((frame++ % sampleRate) == 0) {
         // Read value from bend sensor.
         int value = analogRead(A0);
